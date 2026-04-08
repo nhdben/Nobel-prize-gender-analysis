@@ -90,7 +90,9 @@ includes organizations which cannot be gender-inferred from a first name.
 
 ## View the Notebook
 
+## View the Notebook
 
+[View on GitHub](https://github.com/nhdben/nobel-prize-women/blob/main/nobel_women_recognition.ipynb)
 
 ---
 

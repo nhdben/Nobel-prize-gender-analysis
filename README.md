@@ -10,6 +10,11 @@ isolated event.
 The analysis is descriptive and structural. No causal claims are made.
 
 ---
+## Limitations note(as of June 26, 2026): 
+Missingness in the sex field is not evenly distributed. It is concentrated in Physics (87 missing of ~230 laureates), Physiology or Medicine (78), and Economic Sciences (46),  the same categories already classified as Broken Loop (Physics, Chemistry), Lagged Loop (Medicine), or Insufficient Data (Economic Sciences) in the findings below. I'm currently checking whether this reflects under-digitized older records or a pattern correlated with gender, before treating those category-level conclusions as final.
+
+
+---
 
 ## The Question
 
@@ -124,3 +129,4 @@ The dataset contains one row per Nobel Prize laureate with the following fields:
 - The Nobel Prize reflects institutional recognition patterns, 
   not scientific contribution
 - Causality cannot be established from this data
+

@@ -41,7 +41,7 @@ Three outcomes are tested for:
 
 ---
 
-## What I Found
+## What I Found (preliminary, see limitations)
 
 | Category | Loop Type |
 |---|---|
@@ -52,12 +52,13 @@ Three outcomes are tested for:
 | Economic Sciences | ❓ Insufficient data |
 | Peace | — Excluded (structurally incomparable) |
 
+Physics and Economic Sciences are the categories most exposed to the missingness issue noted above, if the gap turns out to correlate with gender, these classifications may change.
 Physics recognized a woman in 1903 — second only to Peace — yet produced 
 the most broken loop in the dataset. Physiology or Medicine waited 46 years 
 for its first female winner, yet produced the only STEM field with genuine 
 sustained growth.
 
-**Early recognition was not sufficient. What determined the loop was not 
+**Early recognition does not appear sufficient on its own. What determined the loop was not 
 the timing of the first signal — but whether the institutional environment 
 was capable of receiving it.**
 
@@ -74,9 +75,7 @@ this or blindly imputing it, I used a two-track approach:
   threshold (primary analysis)
 
 Findings stable across both tracks are treated as robust. Findings that 
-shift between tracks are flagged. Inference had meaningful impact only in 
-Physiology or Medicine (+37.5% female count) — conclusions in that category 
-are treated with appropriate caution.
+shift between tracks are flagged.Inference had a confirmed, meaningful impact in Physiology or Medicine (+37.5% female count). Physics and Economic Sciences have substantial untested missingness of their own (see limitations), their sensitivity to inference has not yet been checked.
 
 Gender inference was not applied to Peace Prize winners, as that category 
 includes organizations which cannot be gender-inferred from a first name.
@@ -108,7 +107,7 @@ The dataset contains one row per Nobel Prize laureate with the following fields:
 | `award_year` | Year the prize was awarded |
 | `category` | Nobel Prize category |
 | `full_name` / `known_name` | Laureate's full and commonly known name |
-| `sex` | Gender (24% missing — addressed via two-track methodology) |
+| sex | Gender (24% missing overall; concentrated by category — see Limitations) |
 | `portion` | Share of the prize received |
 | `is_shared` | Whether the prize was shared that year |
 | `is_repeat_winner` | Whether the laureate won more than once |
